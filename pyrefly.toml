@@ -1,0 +1,14 @@
+# The directory Pyrefly should search for files
+project-includes = ["."]
+# Target the specific version of Python you are using
+python-version = "3.12"
+
+[errors]
+# Enable checking for functions even without type annotations
+check-unannotated-defs = true
+# Use 'checked' to infer return types for all functions
+untyped-def-behavior = "check-and-infer-return-any"
+
+[ide]
+# Ensures types are inferred as you type in cells
+inlay-hints = true

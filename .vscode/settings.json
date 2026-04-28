@@ -1,0 +1,25 @@
+{
+  "notebook.formatOnSave.enabled": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  "ruff.format.preview": true,
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  // Pyrefly Specific Settings
+  "python.pyrefly.displayTypeErrors": "force-off",
+  "python.pyrefly.configPath": "${workspaceFolder}/pyrefly.toml",
+
+  // UI Polish
+  "python.analysis.showHoverGoToLinks": true,
+  "ruff.configurationPreference": "filesystemFirst",
+  "ruff.configuration": "${workspaceFolder}/ruff.toml"
+}
