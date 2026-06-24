@@ -25,6 +25,12 @@ fixable = ["ALL"]
 unfixable = []
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
+[lint.per-file-ignores]
+"**/*.ipynb" = [
+    "E402", # imports mid-cell are normal in notebooks
+    "N806", # uppercase X for feature matrices is sklearn convention
+]
+
 [format]
 quote-style = "double"
 indent-style = "space"
