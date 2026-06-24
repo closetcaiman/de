@@ -1,11 +1,11 @@
-% websave("nbp.csv", "https://static.nbp.pl/dane/kursy/Archiwum/archiwum_tab_a_2025.csv")
+% websave("data/archiwum_tab_a_2025.csv", "https://static.nbp.pl/dane/kursy/Archiwum/archiwum_tab_a_2025.csv")
 
 clear; close all; clc;
 
 % Zadanie 1
 
 % 1. wczytanie danych
-file = 'nbp.csv';
+file = 'data/archiwum_tab_a_2025.csv';
 N_deg = 2;
 k_win = 5;
 PP = 1.15;

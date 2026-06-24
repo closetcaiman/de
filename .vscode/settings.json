@@ -14,9 +14,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // Pyrefly Specific Settings
-  "python.pyrefly.displayTypeErrors": "force-off",
-  "python.pyrefly.configPath": "${workspaceFolder}/pyrefly.toml",
+  "files.associations": {
+    "*.m": "matlab"
+  },
 
   // UI Polish
   "python.analysis.showHoverGoToLinks": true,
