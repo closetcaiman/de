@@ -1,6 +1,6 @@
-# Eksploracja Danych — AGH
+# Data Exploration - AGH course labs
 
-My notebooks and solutions for the Data Exploration course at AGH.
+My notebooks and solutions for lab part of the Data Exploration course at AGH.
 
 ## Labs
 
